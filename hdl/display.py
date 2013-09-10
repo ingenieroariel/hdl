@@ -141,6 +141,10 @@ if __name__ == '__main__':
     model_name = 'SparseSlowModel_patchsz048_N1024_NN1024_l2_l1_None_2012-02-10_16-23-20/SparseSlowModel_patchsz048_N1024_NN1024_l2_l1_None.model'
     model_name = 'SparseSlowModel_patchsz048_N1024_NN1024_l2_subspacel1_None_2012-02-10_17-22-55/SparseSlowModel_patchsz048_N1024_NN1024_l2_subspacel1_None.model'
 
+
+    state_dir = '/Users/x/output/hdl/state'
+    model_name = 'SparseSlowModel_patchsz016_N256_NN256_l2_elastic_None_2013-09-06_11-45-50/model.model'
+
     fname = os.path.join(state_dir,model_name)
     m = SparseSlowModel()
     m.load(fname)
