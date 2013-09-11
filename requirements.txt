@@ -1,5 +1,7 @@
 theano
 numpy
 scipy
+Cython
 matplotlib
 scikit-image
+scikit-learn
