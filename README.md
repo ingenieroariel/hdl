@@ -28,3 +28,9 @@ or with gpu:
 ### View the results:
 
 `/share/users/USERNAME/output/hdl/state/.../*.png`
+
+### Ariel:
+
+Split images:
+
+`ffmpeg -i ../wak/hdr_wak_003.avi -r 1000 -f image2 image-%07d.png`
